@@ -22,9 +22,13 @@ The optional `GROQ_API_KEY` is intentionally not required. The shipped reasoning
 cd D:\VS-Studio\resume-screening-agent
 
 py -3.10 -m venv .venv
+
 .\.venv\Scripts\Activate.ps1
+
 python --version
+
 pip install -r requirements.txt
+
 uvicorn backend.main:app --reload
 
 ## Sample input
