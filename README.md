@@ -31,6 +31,8 @@ pip install -r requirements.txt
 
 uvicorn backend.main:app --reload
 
+Once the backend is running, open http://localhost:8000/ in Chrome.
+
 ## Sample input
 
 Paste `data/sample_jd/python_backend_jd.txt or Sample Job Description — Junior AI Engineer.txt` and select the ten files under `data/sample_resumes/`. The files represent strong through low matches.
