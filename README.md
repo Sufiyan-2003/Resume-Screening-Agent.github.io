@@ -53,50 +53,55 @@ The extractor deliberately uses transparent rules rather than opaque candidate i
 
 ## Architecture
 
-┌──────────────────────────────────────────────┐
-│              ResumeScreen AI                 │
-└──────────────────────┬───────────────────────┘
-                       │
-                       ▼
-┌──────────────────────────────────────────────┐
-│           HTML / CSS / JavaScript            │
-│               Recruitment UI                 │
-└──────────────────────┬───────────────────────┘
-                       │
-                       │ REST API
-                       ▼
-┌──────────────────────────────────────────────┐
-│                   FastAPI                    │
-│                Backend API                   │
-└──────────────────────┬───────────────────────┘
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-     PDF/DOCX/TXT    JD Parser   Candidate
-        Parser                    Extraction
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-              Skill Extraction
-                       │
-                       ▼
-             MiniLM Embeddings
-                       │
-                       ▼
-             Semantic Similarity
-                       │
-                       ▼
-              Scoring Engine
-                       │
-                       ▼
-              Ranking Engine
-                       │
-              ┌────────┴────────┐
-              ▼                 ▼
-           SQLite           CSV / JSON
-              │
-              ▼
-         Results Dashboard
+```mermaid
+flowchart TD
+
+    A[ResumeScreen AI] --> B[HTML / CSS / JavaScript<br/>Recruitment Dashboard]
+
+    B -->|REST API| C[FastAPI Backend]
+
+    C --> D[Document Processing]
+
+    D --> D1[PDF Parser<br/>PyMuPDF]
+    D --> D2[DOCX Parser<br/>python-docx]
+    D --> D3[TXT Parser]
+
+    C --> E[Job Description Parser]
+    C --> F[Candidate Information Extraction]
+
+    D1 --> F
+    D2 --> F
+    D3 --> F
+
+    F --> G[Skill Extraction & Normalization]
+
+    E --> H[JD Requirements]
+
+    G --> I[Sentence Transformers<br/>all-MiniLM-L6-v2]
+    H --> I
+
+    I --> J[Semantic Similarity<br/>Cosine Similarity]
+
+    G --> K[Required / Preferred<br/>Skill Matching]
+    F --> L[Experience Matching]
+    F --> M[Education Matching]
+
+    J --> N[Deterministic<br/>Scoring Engine]
+    K --> N
+    L --> N
+    M --> N
+
+    N --> O[Candidate Ranking]
+
+    O --> P[Evidence-Based<br/>Reasoning]
+
+    O --> Q[(SQLite)]
+    O --> R[CSV / JSON Export]
+
+    P --> S[Results Dashboard]
+    Q --> S
+    R --> S
+```
 
 ## Suggested commits
 
