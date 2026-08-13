@@ -1,0 +1,3 @@
+Sam Wilson
+sam.wilson@example.com
+Systems administrator with 7 years of experience in Linux, Azure, Jenkins, Docker and Git. Diploma in Network Administration.

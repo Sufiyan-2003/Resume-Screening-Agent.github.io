@@ -1,0 +1,3 @@
+Meera Nair
+meera.nair@example.com
+Python developer with 3 years of experience. Built FastAPI APIs using MongoDB, Docker, Git, AWS and Redis. Master's degree in Computer Science.

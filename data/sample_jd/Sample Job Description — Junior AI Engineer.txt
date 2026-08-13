@@ -1,0 +1,37 @@
+Job Title: Junior AI Engineer
+
+We are looking for a Junior AI Engineer to join our AI/ML team and contribute to developing and deploying machine learning solutions. The ideal candidate should have a strong foundation in Python, machine learning, and data processing, with a willingness to learn and work on real-world AI projects.
+
+Required:
+
+Python
+Machine Learning
+NumPy
+Pandas
+scikit-learn
+SQL
+Git/GitHub
+Basic understanding of REST APIs
+Bachelor's degree in Computer Science, Artificial Intelligence, Machine Learning, or a related field
+
+Preferred / Nice to Have:
+
+TensorFlow or PyTorch
+Deep Learning
+NLP or Computer Vision
+FastAPI or Flask
+Docker
+Cloud platforms such as AWS
+Experience with LLMs or Generative AI
+
+Responsibilities:
+
+Develop and evaluate machine learning models.
+Perform data preprocessing, feature engineering, and exploratory data analysis.
+Build Python-based AI/ML applications.
+Integrate trained models into backend APIs.
+Work with engineering and product teams to develop AI-powered features.
+Test, document, and improve machine learning solutions.
+Stay updated with modern AI and machine learning techniques.
+
+Experience: 0–2 years / Freshers with strong projects are encouraged to apply.

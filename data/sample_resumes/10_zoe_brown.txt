@@ -1,0 +1,3 @@
+Zoe Brown
+zoe.brown@example.com
+Recent graduate with internship exposure to Java, Spring Boot, MySQL and GitHub. Bachelor of Science in Mathematics.

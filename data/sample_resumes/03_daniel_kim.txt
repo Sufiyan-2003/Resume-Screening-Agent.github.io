@@ -1,0 +1,3 @@
+Daniel Kim
+daniel.kim@example.com
+Software Engineer with 4 years of experience in Python, Django, REST API, PostgreSQL, Docker, Git and AWS. Bachelor's degree in Software Engineering.

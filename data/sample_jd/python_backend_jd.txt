@@ -1,0 +1,2 @@
+Job Title: Python Backend Engineer
+We need a Python Backend Engineer with 3 years of experience building REST API services. Required: Python, FastAPI, PostgreSQL, Docker, Git, AWS. Bachelor's degree in Computer Science or equivalent experience. Preferred / nice to have: Kubernetes, Redis, Machine Learning. You will design APIs, build reliable services, and collaborate with product teams.

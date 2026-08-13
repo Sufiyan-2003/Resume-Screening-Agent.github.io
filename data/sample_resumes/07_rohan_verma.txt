@@ -1,0 +1,3 @@
+Rohan Verma
+rohan.verma@example.com
+Junior developer. 1 year of experience using Python, Flask, MySQL, Git and JavaScript. Bachelor's degree in Information Technology.

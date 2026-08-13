@@ -1,0 +1,4 @@
+Avery Shah
+avery.shah@example.com | +1 555 010 1001
+Senior Python Backend Engineer
+5 years of experience building Python services with FastAPI, REST API, PostgreSQL, Docker, Git, GitHub and AWS. Built Redis caching and Kubernetes deployments. Bachelor of Science in Computer Science.

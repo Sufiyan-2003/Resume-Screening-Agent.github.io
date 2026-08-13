@@ -1,0 +1,3 @@
+Lina Chen
+lina.chen@example.com
+Machine Learning Engineer with 3 years of experience using Python, scikit-learn, NLP, FastAPI, Docker, Git and PostgreSQL. Bachelor of Science in Computer Science.

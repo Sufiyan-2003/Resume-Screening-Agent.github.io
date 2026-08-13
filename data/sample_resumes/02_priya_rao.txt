@@ -1,0 +1,4 @@
+Priya Rao
+priya.rao@example.com | +1 555 010 1002
+Backend Developer
+4 years of experience with Python, FastAPI, PostgreSQL, Docker, Git and AWS. Designed RESTful API platforms. B.Tech in Computer Science.
